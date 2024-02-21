@@ -5,6 +5,11 @@ public class Student {
         private String rollno;
         private String branch;
         Scanner sc =new Scanner(System.in);
+        public Student(String name, String rollno, String branch){
+            this.name=name;
+            this.rollno=rollno;
+            this.branch=branch;
+        }
         void setValues(){
 
             System.out.println("Enter the Name, rollno and Branch");

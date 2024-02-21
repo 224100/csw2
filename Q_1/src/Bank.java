@@ -4,6 +4,16 @@ class Bank {
     private String name;
     private float balance;
     Scanner sc =new Scanner(System.in);
+    public Bank(long acc_no, String name, float balance){
+        this.acc_no=acc_no;
+        this.name=name;
+        this.balance=balance;
+    }
+
+    public Bank() {
+
+    }
+
     void setValues(){
 
         System.out.println("Enter the Account number name and balance");
@@ -42,5 +52,9 @@ class Bank {
         int d =sc.nextInt();
         balance += d;
         System.out.println("updated balance : "+getBalance());
+    }
+    @Override
+    public String toString(){
+        return getName()+" "+getAccno()+" "+getBalance();
     }
 }

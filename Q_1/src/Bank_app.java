@@ -5,6 +5,8 @@ public class Bank_app {
         Scanner sc =new Scanner(System.in);
         Bank a1 = new Bank();
         a1.setValues();
+        Bank a2 =new Bank(123,"aman",222);
+        a2.display();
         int a;
         do{
         System.out.println("Enter 1 for Withdraw :");
@@ -28,6 +30,7 @@ public class Bank_app {
                 System.out.println("Wrong input !!");
         }
     }while(a!=0);
+        System.out.println(a1);
     }
 }
 

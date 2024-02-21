@@ -1,0 +1,33 @@
+constructor
+    Special member function
+    create and initialize an object
+
+rules
+    it must be public
+    its name is same as class name
+    no return type
+
+    example:-
+    public class bank{
+    private int name;
+    public bank(){     //its the constructor (its a default constructor)
+    }
+    }
+   it is called automatically when we create an object in the main class ex- bank b =new bank(); here bank() is the constructor function
+    if we dont create and constructor java compiler will create an default constructor.
+    we can use constructor to initialize value to the data members
+    it has no return type but returns the object.
+    2 types
+    default
+    parameterized
+
+    example of parameterized constructor
+     public class bank{
+        private int name;
+        public bank(int name){
+        this.name=name;
+        }
+      }
+      here we are using parameterized constructor to initialize the data member 'name' we can use the same in any class
+      and for different programs and different number of data members
+       we can also do constructor overloading same as function overloading
