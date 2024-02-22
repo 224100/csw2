@@ -2,37 +2,23 @@ import java.util.Scanner;
 public class Student {
 
         private String name;
-        private String rollno;
-        private String branch;
+        private int rollno;
+
         Scanner sc =new Scanner(System.in);
-        public Student(String name, String rollno, String branch){
+        public Student(String name, int rollno){
             this.name=name;
             this.rollno=rollno;
-            this.branch=branch;
-        }
-        void setValues(){
-
-            System.out.println("Enter the Name, rollno and Branch");
-            name = sc.next();
-            rollno=sc.next();
-            branch=sc.next();
-        }
-        String getName(){
-            return name;
 
         }
-    String getRollno(){
-        return rollno;
-
+        int getroll(){
+            return rollno;
     }
-    String getBranch(){
-        return branch;
+        @Override
+        public String toString() {
+            System.out.println("Name : " + name);
+            System.out.println("rollno : " + rollno);
 
-    }
-        void display() {
-            System.out.println("Name : " + getName());
-            System.out.println("rollno : " + getRollno());
-            System.out.println("Branch : " + getBranch());
+            return"";
 
         }
     }
