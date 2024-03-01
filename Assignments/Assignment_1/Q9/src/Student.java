@@ -1,7 +1,11 @@
 public class Student {
-    String name;
-    Student(String name){
-        this.name=name;
+    private String name;
+
+    public Student(String name) {
+        this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
 }
