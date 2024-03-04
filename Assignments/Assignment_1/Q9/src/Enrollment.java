@@ -1,39 +1,44 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Enrollment implements EnrollmentSystem {
-    private List<Student> students = new ArrayList<>();
-    private List<Course> courses = new ArrayList<>();
-
+public class Enrollment implements EnrollmentSystem{
+    private Course courses[] = new Course[5];
+    public Enrollment(){
+        courses[0]= new Course("Networking","N001",4);
+        courses[1]= new Course("Calculus","C002",4);
+        courses[2]= new Course("Communication","C210",4);
+        courses[3]= new Course("Management","B001",3);
+        courses[4]= new Course("Models","m001",4);
+    }
     @Override
-    public void enroll(Student student, Course course) {
-        if (students.contains(student) && courses.contains(course)) {
-            System.out.println("Student is already enrolled in the course.");
-            return;
+    public void enroll(String c, String s,int regno) {
+        switch(c.toLowerCase()){
+            case"cse":
+                courses[0].setStudent(s,regno);
+                break;
+            case"eee":
+                courses[1].setStudent(s,regno);
+                break;
+            case"ece":
+                courses[2].setStudent(s,regno);
+                break;
+            case"bba":
+                courses[3].setStudent(s,regno);
+                break;
+            case"me":
+                courses[4].setStudent(s,regno);
+                break;
+            default:
+                System.out.println("ye clg me ye course nahi h !!");
         }
-        students.add(student);
-        courses.add(course);
-        System.out.println(student.getName() + " has been enrolled in " + course.getName());
+    }
+    @Override
+    public void display(){
+        for(Course z : courses){
+            if(z == null)
+                break;
+            z.display();
+        }
     }
 
-    @Override
-    public void drop(Student student, Course course) {
-        int index = students.indexOf(student);
-        if (index != -1 && courses.get(index).equals(course)) {
-            students.remove(index);
-            courses.remove(index);
-            System.out.println(student.getName() + " has been dropped from " + course.getName());
-        } else {
-            System.out.println("Student is not enrolled in the course.");
-        }
-    }
-
-    @Override
-    public String getEnrollmentDetails() {
-        StringBuilder details = new StringBuilder();
-        for (int i = 0; i < students.size(); i++) {
-            details.append(students.get(i).getName()).append(" is enrolled in ").append(courses.get(i).getName()).append("\n");
-        }
-        return details.toString();
-    }
 }

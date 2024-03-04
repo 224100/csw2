@@ -1,20 +1,41 @@
-public class Main {
+import java.util.Scanner;
+
+public class Main{
     public static void main(String[] args) {
-        EnrollmentSystem enrollmentSystem = new Enrollment();
+        Scanner sc =new Scanner(System.in);
+        Enrollment e = new Enrollment();
 
-        Student student1 = new Student("John");
-        Student student2 = new Student("Jane");
+        int a = 1;
+        while(a!=0){
+            System.out.println("Enter Students name: ");
+            String s = sc.next();
+            System.out.println("Enter students regdno : ");
+            int r =sc.nextInt();
+            System.out.println("Enter 1 for cse \n 2 for eee \n 3 for ece \n 4 for bba \n 5 for ME");
+            a=sc.nextInt();
+            switch(a){
+                case 1:
+                    e.enroll("cse",s,r);
+                    break;
+                case 2:
+                    e.enroll("eee",s,r);
+                    break;
+                case 3:
+                    e.enroll("ece",s,r);
+                    break;
+                case 4:
+                    e.enroll("bba",s,r);
+                    break;
+                case 5:
+                    e.enroll("me",s,r);
+                    break;
+                default:
+                    System.out.println("Wrong course!");
+            }
+            System.out.println("Enter 0  to quit! else 1 to continue");
+            a =sc.nextInt();
+        }
+        e.display();
 
-        Course course1 = new Course("Math");
-        Course course2 = new Course("English");
-
-        enrollmentSystem.enroll(student1, course1);
-        enrollmentSystem.enroll(student2, course2);
-
-        System.out.println(enrollmentSystem.getEnrollmentDetails());
-
-        enrollmentSystem.drop(student1, course1);
-
-        System.out.println(enrollmentSystem.getEnrollmentDetails());
     }
 }
