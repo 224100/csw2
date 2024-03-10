@@ -5,10 +5,8 @@ public class Main {
         r1.getBreadth();
         r1.Area();
         r1.parameter();
-        Rectangle r2 = new Rectangle();
-        r2.setLength(6);
-        r2.setBreadth(7);
-        r2.Area();
-        r2.parameter();
+        r1.setLength(6);
+        r1.Area();
+        r1.parameter();
     }
 }

@@ -5,19 +5,14 @@ public class Rectangle {
         this.length=length;
         this.breadth=breadth;
     }
-    public Rectangle(){
-
-    }
+    public Rectangle(){}
     void setLength(int length){
         this.length=length;
     }
     void setBreadth(int breadth){
         this.breadth=breadth;
     }
-    void getLength(){
-        System.out.println("Length: "+length);
-
-    }
+    void getLength(){ System.out.println("Length: "+length); }
     void getBreadth(){
         System.out.println("Breadth: "+breadth);
     }
