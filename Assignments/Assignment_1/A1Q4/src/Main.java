@@ -4,14 +4,6 @@ public class Main {
         laptop.setModel("Dell");
         laptop.setPrice(1000);
         System.out.println(laptop);
-//         The toString() method in the Laptop class is a method that is overridden from the
-//        Object class in Java. It is used to provide a string representation
-//        of an object. In the context of the Laptop class, it would typically be used to
-//        return a string that represents the state of a Laptop object, including its model and
-//        price.  In the Main class, the toString() method is implicitly called when the Laptop
-//        object is passed to System.out.println(). The println() method calls the toString()
-//        method on the object to get a string representation of the object, which it then prints
-//        to the console.
 
     }
 }
