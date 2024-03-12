@@ -1,17 +1,18 @@
 public class Student {
-    private int studentId;
-    private String studentName;
+    private int sId;
+    private String sName;
     private College college;
 
-    public Student(int studentId, String studentName, College college) {
-        this.studentId = studentId;
-        this.studentName = studentName;
-        this.college = college;
+    public Student(int s, String sn, College c) {
+        sId = s;
+        sName = sn;
+        college = c;
     }
 
     public void displayStudentInfo() {
-        System.out.println("Student ID: " + studentId);
-        System.out.println("Student Name: " + studentName);
+        System.out.println("Student ID: " + sId);
+        System.out.println("Student Name: " + sName);
         System.out.println("College Information: " + college);
+        System.out.println();
     }
 }

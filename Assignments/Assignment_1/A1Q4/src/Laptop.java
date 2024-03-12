@@ -12,9 +12,6 @@ public class Laptop {
 
     @Override
     public String toString() {
-        return "Laptop{" +
-                "model='" + model + '\'' +
-                ", price=" + price +
-                '}';
+        return "Laptop{"+model +" , "+ price+"}" ;
     }
 }
