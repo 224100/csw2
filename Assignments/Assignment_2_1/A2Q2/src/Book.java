@@ -12,15 +12,12 @@ public class Book {
     public String toString(){
         return bookId+" "+bookName+" "+price;
     }
-    public void equals(Book b){
-        if(price>b.price){
-            System.out.println(this);
+    @Override
+    public boolean equals(Object o){
+        if(o instanceof Book){
+            Book s =(Book)o;
+            return price>s.price;
         }
-        else{
-            System.out.println(b);
-        }
+        return false;
     }
-
-
-
 }
