@@ -5,6 +5,5 @@ public class Main {
         p.setKey("Utkarsh");
         p.setValue(1042);
         System.out.println(p.getKey()+" , "+p.getValue());
-
     }
 }
