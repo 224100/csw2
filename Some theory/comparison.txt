@@ -1,0 +1,17 @@
+comparison of objects
+
+ex:-
+
+
+class student implements Comparable<Student>
+{
+int compareTo(Object o){
+Student s =(Student)o;
+if(this.roll == s.roll)
+return 0;
+elseif(this.roll>s.roll)
+return 1;
+else
+return -1;
+}
+}

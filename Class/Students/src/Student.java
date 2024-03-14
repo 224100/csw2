@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Student {
+public class Student implements Comparable<Student> {
 
         private String name;
         private int rollno;
@@ -21,6 +21,18 @@ public class Student {
             return"";
 
         }
+
+    @Override
+    public int compareTo(Student o) {
+            Student s = (Student)o;
+            if(this.rollno==s.rollno)
+                return 0;
+            else if (this.rollno >s.rollno) {
+                return 1;
+            }
+            else
+                return -1;
     }
+}
 
 
