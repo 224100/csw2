@@ -9,11 +9,6 @@ public class CurrentAccount extends Account {
     public long getOver() {
         return over;
     }
-
-    public void setOver(long over) {
-        this.over = over;
-    }
-
     @Override
     public void withdraw(long a) {
         if(over<a){

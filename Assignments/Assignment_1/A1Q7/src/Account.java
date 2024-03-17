@@ -6,19 +6,12 @@ public abstract class Account {
         this.accno = accno;
         this.balance=balance;
     }
-
     public String getAccno() {
         return accno;
     }
-
-    public void setAccno(String accno) {
-        this.accno = accno;
-    }
-
     public long getBalance() {
         return balance;
     }
-
     public void setBalance(long balance) {
         this.balance = balance;
     }

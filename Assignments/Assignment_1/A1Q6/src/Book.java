@@ -1,4 +1,4 @@
-public class Book extends LibraryResource{
+public class  Book extends LibraryResource{
     int pageCount;
     public Book(String title, String author,int pageCount) {
         super(title, author);

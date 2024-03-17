@@ -5,22 +5,12 @@ public class SavingsAccount extends Account{
         super(accno,balance);
         this.interestRate = interestRate;
     }
-
-    public float getInterestRate() {
-        return interestRate;
-    }
-
     @Override
     public void display() {
         System.out.println("-----Saving Account-----");
         System.out.println("Account no : "+getAccno());
         System.out.println("Balance : "+getBalance());
     }
-
-    public void setInterestRate(float interestRate) {
-        this.interestRate = interestRate;
-    }
-
     @Override
     public void withdraw(long a) {
         if(a>getBalance()) {
