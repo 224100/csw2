@@ -8,9 +8,20 @@ public class Student implements Comparable<Student>{
         this.totalMark = totalMark;
 
     }
+    public void sort(Student s[]){
+        for (int i =4;i>=0;i--) {
+            for(int j =0;j<i;j++){
+                if(s[j].compareTo(s[j+1])==1){
+                    Student temp = s[j];
+                    s[j] = s[j+1];
+                    s[j+1] = temp;
+                }
+            }
+        }
+    }
     @Override
     public int compareTo(Student s){
-        if(this.name.equals(s.name) && this.rollno == s.rollno && this.totalMark == s.totalMark){
+        if(this.rollno > s.rollno){
             return 1;
         }
         return 0;

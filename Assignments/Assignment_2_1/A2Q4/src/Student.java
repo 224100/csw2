@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Student implements Comparable<Student>{
     String name;
     int rn;
@@ -13,7 +15,7 @@ public class Student implements Comparable<Student>{
     @Override
     public int compareTo(Student o) {
         Student s =(Student)o;
-        if(this.totalMark == s.totalMark && this.name == s.name && this.rn==s.rn){
+        if(this.totalMark == s.totalMark && this.name.equals( s.name) && this.rn==s.rn){
             return 1;
         }
         return 0;
