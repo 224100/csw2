@@ -11,8 +11,9 @@ public class CurrentAccount extends Account {
     }
     @Override
     public void withdraw(long a) {
+        System.out.println("-----Current Account-----");
         if(over<a){
-            System.out.println("-----Current Account-----");
+
             System.out.println("Withdrwal is over the over draft : "+getOver());
 
             }
@@ -37,3 +38,14 @@ public class CurrentAccount extends Account {
         System.out.println("Balance : "+getBalance());
     }
 }
+
+
+
+
+
+
+
+
+
+
+

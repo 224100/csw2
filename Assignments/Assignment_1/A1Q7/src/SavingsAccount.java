@@ -13,13 +13,12 @@ public class SavingsAccount extends Account{
     }
     @Override
     public void withdraw(long a) {
+        System.out.println("-----Saving Account-----");
         if(a>getBalance()) {
-            System.out.println("-----Saving Account-----");
             System.out.println("Not enough balance!!");
         }
         else {
             setBalance(getBalance() - a);
-            System.out.println("-----Saving Account-----");
             System.out.println("Updated balance : "+getBalance());
         }
     }
