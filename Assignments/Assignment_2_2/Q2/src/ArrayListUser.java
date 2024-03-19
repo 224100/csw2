@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class ArrayListUser {
+public class ArrayListUser{
     ArrayList<User> users;
 
     public ArrayListUser() {
@@ -19,7 +19,16 @@ public class ArrayListUser {
         }
     }
 
+
     public void sortUsersByAge() {
-        Collections.sort(users, Comparator.comparing(User::getAge));
+        for(int i = users.size()-1;i>=0;i--){
+            for(int j =0;j<i;j++){
+                if(users.get(j).compareTo(users.get(j+1)) ==1){
+                    User temp = users.get(j);
+                    users.set(j,users.get(j+1));
+                    users.set(j+1,temp);
+                }
+            }
+        }
     }
 }

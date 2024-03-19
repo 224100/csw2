@@ -1,0 +1,15 @@
+ArrayList:-
+
+    ArrayList<Generic> a =new ArrayList<>();
+    a.add("hello");
+    a.add("bye");
+    sop(a);
+    output :- [hello,bye]
+    input at any index
+    a.add(Index,value);
+    a.add(1,"hello");
+
+
+    Sorting an array list
+    a.sort(null);
+

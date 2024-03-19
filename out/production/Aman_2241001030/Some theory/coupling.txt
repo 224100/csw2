@@ -1,0 +1,4 @@
+coupling is the process of separating one module from the other by using proper division of data and function
+it is the degree of independence of different modules or classes.
+high coupling refers to more dependent modules which are closely connected, it is also called tightly coupled modules
+a good quality software must have loosely coupled classes or modules.

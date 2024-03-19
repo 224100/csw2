@@ -1,0 +1,4 @@
+cohesion is the process of  binding data and functions within a given class it defines the degree to which members of a module or class
+belong to each other a good software design requires a high cohesion value
+a module with unrelated elements is said to be having very low cohesion
+

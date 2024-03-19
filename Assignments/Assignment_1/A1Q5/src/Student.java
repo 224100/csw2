@@ -15,4 +15,9 @@ public class Student {
         System.out.println("College Information: " + college);
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Student ID: " + sId + " Student Name: " + sName+"College Information: " + college+"\n";
+    }
 }

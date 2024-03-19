@@ -1,0 +1,7 @@
+ArrayList:-
+
+    ArrayList<Generic> a =new ArrayList<>();
+    a.add("hello");
+    a.add("bye");
+    sop(a);
+    output :- [hello,bye]
