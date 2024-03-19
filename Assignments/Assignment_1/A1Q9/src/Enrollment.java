@@ -11,21 +11,21 @@ public class Enrollment implements EnrollmentSystem{
         courses[4]= new Course("Models","m001",4);
     }
     @Override
-    public void enroll(String c, String s,int regno) {
-        switch(c.toLowerCase()){
-            case"cse":
+    public void enroll(int a, String s,int regno) {
+        switch(a){
+            case 1:
                 courses[0].setStudent(s,regno);
                 break;
-            case"eee":
+            case 2:
                 courses[1].setStudent(s,regno);
                 break;
-            case"ece":
+            case 3:
                 courses[2].setStudent(s,regno);
                 break;
-            case"bba":
+            case 4:
                 courses[3].setStudent(s,regno);
                 break;
-            case"me":
+            case 5:
                 courses[4].setStudent(s,regno);
                 break;
             default:
