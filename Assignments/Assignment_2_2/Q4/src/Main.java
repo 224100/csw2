@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         StudentList studentList = new StudentList();
-        studentList.addStudent(new Student("Alice", 20, 85));
-        studentList.addStudent(new Student("Bob", 22, 90));
-        studentList.addStudent(new Student("Charlie", 21, 88));
+        studentList.addStudent(new Student("satyam", 20, 85));
+        studentList.addStudent(new Student("sameer", 22, 90));
+        studentList.addStudent(new Student("subha", 21, 88));
 
         System.out.println("Displaying the list:");
         studentList.displayList();
@@ -12,7 +12,7 @@ public class Main {
         studentList.checkExistence();
 
         System.out.println("Removing a student:");
-        studentList.removeStudent(new Student("Alice", 20, 85));
+        studentList.removeStudent(new Student("satyam", 20, 85));
 
         System.out.println("Counting students:");
         studentList.countStudents();
