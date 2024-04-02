@@ -1,0 +1,14 @@
+sets:-
+        1.Hashset
+                    Hashset<Integer> H = new HashSet<>();
+                    h.add(20);
+                    h.add(55);
+                    h1.addall(h2);union between both h1 and h2
+                    h1.retriveall(h2);intersection between both h1 nad h2
+                    h1.removeall(h2);h1-h2 difference
+
+
+
+
+        2.Tree set
+        3.LinkedHashSet
