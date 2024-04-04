@@ -6,6 +6,7 @@ public class Main {
         System.gc();
     }
     public static void main(String[] args) {
+        String sxyz = "Aman";
        f1();
        Runtime r = Runtime.getRuntime();
        String s =null;
