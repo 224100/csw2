@@ -2,36 +2,37 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q1/A1Q1.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q1/A1Q1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q2/A1Q2.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q2/A1Q2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q3/A1Q3.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q3/A1Q3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q4/A1Q4.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q4/A1Q4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q5/A1Q5.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q5/A1Q5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q6/A1Q6.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q6/A1Q6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q7/A1Q7.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q7/A1Q7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q8/A1Q8.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q8/A1Q8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/A1Q9/A1Q9.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/A1Q9/A1Q9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q1/A2Q1.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q1/A2Q1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q2/A2Q2.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q2/A2Q2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q3/A2Q3.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q3/A2Q3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q4/A2Q4.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q4/A2Q4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q5/A2Q5.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q5/A2Q5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q6/A2Q6.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1/A2Q6/A2Q6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q1/A1Q1.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q1/A1Q1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q2/A1Q2.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q2/A1Q2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q3/A1Q3.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q3/A1Q3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q4/A1Q4.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q4/A1Q4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q5/A1Q5.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q5/A1Q5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q6/A1Q6.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q6/A1Q6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q7/A1Q7.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q7/A1Q7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q8/A1Q8.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q8/A1Q8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q9/A1Q9.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/A1Q9/A1Q9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q1/A2Q1.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q1/A2Q1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q2/A2Q2.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q2/A2Q2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q3/A2Q3.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q3/A2Q3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q4/A2Q4.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q4/A2Q4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q5/A2Q5.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q5/A2Q5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q6/A2Q6.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/A2Q6/A2Q6.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Aman_2241001030.iml" filepath="$PROJECT_DIR$/.idea/Aman_2241001030.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1/Assignment_1.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1/Assignment_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1/Assignment_2_1.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1/Assignment_2_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2/Assignment_2_2.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2/Assignment_2_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_3/Assignment_3.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_3/Assignment_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_5/Assignment_5.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_5/Assignment_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_1_Opps/Assignment_1_Opps.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_1_Opps/Assignment_1_Opps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/Assignment_2_1_Generic&amp;Collection.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_1_Generic&amp;Collection/Assignment_2_1_Generic&amp;Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Assignment_2_2_Generic&amp;Collection.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Assignment_2_2_Generic&amp;Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_3_Error/Assignment_3_Error.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_3_Error/Assignment_3_Error.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_4_GarbageCollection/Assignment_4_GarbageCollection.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_4_GarbageCollection/Assignment_4_GarbageCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_5_IOFile/Assignment_5_IOFile.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_5_IOFile/Assignment_5_IOFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignments/Assignments.iml" filepath="$PROJECT_DIR$/Assignments/Assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class_/Class_.iml" filepath="$PROJECT_DIR$/Class_/Class_.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mobile/Mobile.iml" filepath="$PROJECT_DIR$/Mobile/Mobile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2/Q1/Q1.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2/Q1/Q1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2/Q2/Q2.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2/Q2/Q2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2/Q3/Q3.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2/Q3/Q3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2/Q4/Q4.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2/Q4/Q4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2/Q6/Q6.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2/Q6/Q6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2/Q9/Q9.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2/Q9/Q9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q1/Q1.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q1/Q1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q2/Q2.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q2/Q2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q3/Q3.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q3/Q3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q4/Q4.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q4/Q4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q6/Q6.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q6/Q6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q9/Q9.iml" filepath="$PROJECT_DIR$/Assignments/Assignment_2_2_Generic&amp;Collection/Q9/Q9.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q_1/Q_1.iml" filepath="$PROJECT_DIR$/Q_1/Q_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q_2/Q_2.iml" filepath="$PROJECT_DIR$/Q_2/Q_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Q_3/Q_3.iml" filepath="$PROJECT_DIR$/Q_3/Q_3.iml" />
