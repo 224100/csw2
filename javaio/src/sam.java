@@ -4,9 +4,8 @@ public class sam {
         File f1 = new File("C:\\Users\\hp\\Desktop\\desktop\\Aman_2241001030\\csw2\\javaio\\src\\stxt.txt");
         File f2 = new File("C:\\Users\\hp\\Desktop\\desktop\\Aman_2241001030\\csw2\\javaio\\src\\stxt2.txt");
        try{
-
-           FileInputStream inf = new FileInputStream(f1);
-           FileOutputStream outf = new FileOutputStream(f2);
+           FileReader inf = new FileReader(f1);
+           FileWriter outf = new FileWriter(f2);
            int x ;
            while((x=inf.read())!=-1){
                outf.write(x);
@@ -15,10 +14,8 @@ public class sam {
            inf.close();
            outf.close();
        }
-       catch(IOException e ){
-           e.printStackTrace();
+       catch(Exception e ){
+           System.out.println("Error!");
        }
-
-
     }
 }
