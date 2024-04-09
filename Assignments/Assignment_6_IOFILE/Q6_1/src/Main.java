@@ -16,8 +16,6 @@ public class Main {
             }
             FileWriter fout = new FileWriter(f,true);
             fout.write("\n"+s);
-
-            fout.write(128512);
             fout.close();
         }
         catch(IOException e ){
