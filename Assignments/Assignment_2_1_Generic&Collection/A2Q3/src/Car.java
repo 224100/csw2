@@ -14,17 +14,16 @@ public class Car implements Comparable<Car>{
     }
     @Override
     public int compareTo(Car o) {
-        Car c =(Car)o;
-        if(this.speed==c.speed){
+        if(this.speed==o.speed){
             System.out.println("Both have the same speed:");
             return 0;
         }
-        else if (this.speed > c.speed) {
+        else if (this.speed > o.speed) {
             System.out.println(this);
             return 1;
         }
         else {
-            System.out.println(c);
+            System.out.println(o);
             return 0;
         }
 

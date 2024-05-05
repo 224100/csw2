@@ -48,6 +48,7 @@
       <module fileurl="file://$PROJECT_DIR$/Class/Students/Students.iml" filepath="$PROJECT_DIR$/Class/Students/Students.iml" />
       <module fileurl="file://$PROJECT_DIR$/bst/bst.iml" filepath="$PROJECT_DIR$/bst/bst.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext_shape/ext_shape.iml" filepath="$PROJECT_DIR$/ext_shape/ext_shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaio/javaio.iml" filepath="$PROJECT_DIR$/javaio/javaio.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
