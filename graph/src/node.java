@@ -40,7 +40,14 @@ class graph{
             System.out.println(t);
         }
     }
-    
+    public void showedges(){
+        for(int i = 0;i<size;i++){
+            for(int j = 0;j<size;j++){
+                if(adjMatrix[i][j]==1){
+                    System.out.println(v.get(i)+" -> "+v.get(j));
+                }
+            }
+        }
+    }
 
-    
 }
