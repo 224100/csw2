@@ -22,7 +22,6 @@ class Graph_l{
         for(int i = 0 ; i < v.size();i++){
             if(x==v.get(i).data)
                 return i;
-
         }
         return -1;
     }
