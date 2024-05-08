@@ -8,6 +8,7 @@ public class Main {
         System.out.println();
         b.min_node(b.root);
         b.max_node(b.root);
+        b.level_display();
 
     }
 }
