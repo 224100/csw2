@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BST {
     BNode root ;
     public BST(){
@@ -28,6 +31,22 @@ public class BST {
                     }
                 }
 
+            }
+        }
+    }
+    public void level_display() {
+        BNode current = root;
+        Queue<BNode> q = new LinkedList<>();
+        q.add(current);
+        while (!q.isEmpty()) {
+            current = q.poll();
+            System.out.println(current);
+            if (current.left != null) {
+                q.add(current.left);
+
+            }
+            if (current.right != null) {
+                q.add(current.right);
             }
         }
     }
