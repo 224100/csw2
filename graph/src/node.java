@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 class vertices {
-    int data;
+    char data;
     boolean visited;
 
     @Override
@@ -12,7 +12,7 @@ class vertices {
         return "" + data;
     }
 
-    public vertices(int x) {
+    public vertices(char x) {
     data=x;
     visited=false;
 }
@@ -33,24 +33,24 @@ class graph{
             }
         }
     }
-    public void addVertex(int x){
+    public void addVertex(char x){
         if(max_v !=0){
             vertices vertex = new vertices(x);
             v.add(vertex);
             --max_v;
         }
     }
-    public void addEdge(int a, int b) {
-        a = search(a);
-        b = search(b);
-        if (a != -1 && b != -1) {
-            adjMatrix[a][b] = 1;
-            adjMatrix[b][a] = 1;
+    public void addEdge(char a, char b) {
+        int x = search(a);
+        int y = search(b);
+        if (x != -1 && y != -1) {
+            adjMatrix[x][y] = 1;
+            adjMatrix[y][x] = 1;
         }
         else
             System.out.println("Wrong input!");
     }
-    int search(int x){
+    int search(char x){
         for(int i = 0 ; i < v.size();i++){
             if(x==v.get(i).data)
                 return i;
