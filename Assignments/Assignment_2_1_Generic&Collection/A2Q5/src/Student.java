@@ -8,7 +8,7 @@ public class Student implements Comparable<Student>{
         this.totalMark = totalMark;
 
     }
-    public void sort(Student s[]){
+    public void sort(Student[] s){
         for (int i =4;i>=0;i--) {
             for(int j =0;j<i;j++){
                 if(s[j].compareTo(s[j+1])==1){
