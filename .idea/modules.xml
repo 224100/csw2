@@ -54,6 +54,7 @@
       <module fileurl="file://$PROJECT_DIR$/ext_shape/ext_shape.iml" filepath="$PROJECT_DIR$/ext_shape/ext_shape.iml" />
       <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaio/javaio.iml" filepath="$PROJECT_DIR$/javaio/javaio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambda_expression/lambda_expression.iml" filepath="$PROJECT_DIR$/lambda_expression/lambda_expression.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>

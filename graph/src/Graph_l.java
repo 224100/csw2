@@ -70,7 +70,7 @@ class Graph_l{
                     v.get(search(l.get(i).data)).visited=true;
                 }
             }
-            
+
         }
         System.out.println();
         vf();
