@@ -5,8 +5,7 @@ public class Car implements Comparable<Car>{
     private String name;
     private int stock;
     @Override
-    public int compareTo(Car car) {
-        Car c =(Car)car;
+    public int compareTo(Car c) {
         if(this.stock>c.stock)
             return 1;
         else return 0;
@@ -22,16 +21,11 @@ public class Car implements Comparable<Car>{
             }
         }
     }
-    
-
-
-
     public Car(int modalNo, String name, int stock) {
         ModalNo = modalNo;
         this.name = name;
         this.stock = stock;
     }
-
     @Override
     public String toString() {
         return ModalNo +" "+ name +" "+stock;
