@@ -8,31 +8,6 @@ public class Student {
         this.age = age;
         this.mark = mark;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public int getMark() {
-        return mark;
-    }
-
-    public void setMark(int mark) {
-        this.mark = mark;
-    }
-
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -43,10 +18,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
+        return
+                "name= " + name  +
                 ", age=" + age +
-                ", mark=" + mark +
-                '}';
+                ", mark=" + mark
+                ;
     }
 }

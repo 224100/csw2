@@ -17,7 +17,6 @@ public class StudentList {
             System.out.println(student);
         }
     }
-
     public void checkExistence() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter student name:");
