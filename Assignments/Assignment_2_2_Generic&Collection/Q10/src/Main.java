@@ -9,7 +9,7 @@ public class Main {
         Hashtable<String , Integer> h = new Hashtable<>();
         for(String w : words){
             w=w.toLowerCase();
-            if(h.contains(w)){
+            if(h.containsKey(w)){
                 h.put(w,h.get(w)+1);
 
             }
