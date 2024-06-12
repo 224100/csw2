@@ -1,50 +1,70 @@
-import java.util.Scanner;
+class SharedPrinter {
+    private boolean evenFlag = false;
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        boolean flag = true;
-        while(flag){
-            System.out.println("Enter two numbers:");
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            System.out.println("Enter the operation you want to perform:");
-            System.out.println("1. Addition");
-            System.out.println("2. Subtraction");
-            System.out.println("3. Multiplication");
-            System.out.println("4. Division");
-            System.out.println("5. Exit");
-            int choice = sc.nextInt();
-            switch(choice){
-                case 1:
-                    printFormat(a, b, Calculator.ad);
-                    break;
-                case 2:
-                    printFormat(a, b, Calculator.sub);
-                    break;
-                case 3:
-                    printFormat(a, b, Calculator.mul);
-                    break;
-                case 4:
-                    printFormat(a, b, Calculator.div);
-                    break;
-                case 5:
-                    flag = false;
-                    break;
-                default:
-                    System.out.println("Invalid choice");
+    public synchronized void printEven(int number) {
+        while (!evenFlag) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
             }
         }
-
+        System.out.println(number);
+        evenFlag = false;
+        notify();
     }
-    static void printFormat(int a,int b,Calculator c){
-        System.out.println(c.calculate(a, b));
+
+    public synchronized void printOdd(int number) {
+        while (evenFlag) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        }
+        System.out.println(number);
+        evenFlag = true;
+        notify();
     }
 }
-interface Calculator{
-    double calculate(int x, int y);
-    static Calculator ad =(x, y) -> x + y;
-    static Calculator sub = (x,y) -> x-y;
-    static Calculator mul = (x,y) -> x * y;
-    static Calculator div = (x,y) -> x / y;
+class EvenNumberGenerator implements Runnable {
+    private final int max;
+    private final SharedPrinter printer;
+
+    public EvenNumberGenerator(int max, SharedPrinter printer) {
+        this.max = max;
+        this.printer = printer;
+    }
+
+    @Override
+    public void run() {
+        for (int i = 2; i <= max; i += 2) {
+            printer.printEven(i);
+        }
+    }
+}
+
+class OddNumberGenerator implements Runnable {
+    private final int max;
+    private final SharedPrinter printer;
+
+    public OddNumberGenerator(int max, SharedPrinter printer) {
+        this.max = max;
+        this.printer = printer;
+    }
+
+    @Override
+    public void run() {
+        for (int i = 1; i <= max; i += 2) {
+            printer.printOdd(i);
+        }
+    }
+}public class Main {
+    public static void main(String[] args) {
+        SharedPrinter printer = new SharedPrinter();
+        Thread evenThread = new Thread(new EvenNumberGenerator(10, printer));
+        Thread oddThread = new Thread(new OddNumberGenerator(10, printer));
+        evenThread.start();
+        oddThread.start();
+    }
 }
